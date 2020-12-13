@@ -7,10 +7,11 @@ public class SimpleTests {
         int a = 5;
         int b = 10;
         @Test
-        @Tag("simpleTest")
+        @Tag("simple_tests")
         void positiveTest1() {
             assertEquals(a * b, 50);
         }
+        @Tag("simple_tests")
         @Test
         void negativeTest() {
         assertEquals(a / b, 0.5);
